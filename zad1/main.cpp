@@ -41,4 +41,5 @@ int main(){
 	//debug/test
 //	cout<<"Najwiekszy numer: "<<biggest;
 //	cout<<"\nSuma pozostalych: "<<suma;
+return 0;
 };
