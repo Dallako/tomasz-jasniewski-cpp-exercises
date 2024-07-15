@@ -12,6 +12,7 @@ int main(){
 
     //inserting a number
     int aNumber;
+    cout<<"Please insert your desired number: ";
     cin>>aNumber;
 
     //create a variable to hold ID number for switch expression
