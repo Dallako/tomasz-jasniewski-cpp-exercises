@@ -24,17 +24,17 @@ int main(){
         id = 1;
     }
     //check if dividable by 3 only
-    else if (aNumber % 3 && aNumber % 5 !=0)
+    if (aNumber % 3 and aNumber % 5 !=0)
     {
         id = 2;
     }
     //check if dividable by 5 only
-    else if (aNumber % 5 && aNumber % 3 !=0)
+    if (aNumber % 5 and aNumber % 3 !=0)
     {
         id = 3;
     }
     //check if it's not dividable by neither 3 nor 5
-    else if (aNumber % 3 != 0 && aNumber%5 != 0)
+    if (aNumber % 3 != 0 and aNumber%5 != 0)
     {
         id = 4;
     }
@@ -59,6 +59,8 @@ int main(){
         break;
     }
     
-    
+//  debug / testing
+    cout<<aNumber<<endl;
+    cout<<id<<endl;
     return 0;
 }
