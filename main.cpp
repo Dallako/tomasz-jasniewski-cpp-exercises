@@ -31,7 +31,11 @@ int main(){
 		suma = b+c;
 	}
 	
-	
+	//wyświetlenie sumy x razy
+	for (int i = 0; i < biggest; i++)
+	{
+		cout<<suma<<endl;
+	}
 	
 
 	//debug/test
