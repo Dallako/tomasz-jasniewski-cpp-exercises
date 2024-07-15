@@ -18,8 +18,23 @@ int main(){
 
 	//sumowanie pozostałych
 	int suma;
+	if (biggest == a)
+	{
+		suma = b+c;
+	}
+	else if (biggest == b)
+	{
+		suma = a+c;
+	}
+	else if (biggest == c)
+	{
+		suma = b+c;
+	}
+	
+	
 	
 
 	//debug/test
-	//cout<<biggest;
+//	cout<<"Najwiekszy numer: "<<biggest;
+//	cout<<"\nSuma pozostalych: "<<suma;
 };
