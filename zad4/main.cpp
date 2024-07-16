@@ -17,22 +17,20 @@ int main(){
     //create array with vowels
     array<char, 5> vowels = {'a', 'e', 'i', 'o', 'u'};
     //create array with digits
-    array<char, 10> digits = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+    array<char, 10> digits = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9'};
 
     //compare character to arrays
     
-        find (digits.begin(), digits.end(), character)
-            ? cout<<"Your character is NOT a digit.\n"  //says this if condition==true
-            : cout<<"Your character is a digit.\n";     //says this if condition==false
-        find (vowels.begin(), vowels.end(), character)
-            ? cout<<"Your character is NOT a vowel.\n"
-            : cout<<"Your character is a vowel.\n";
-        find (consonants.begin(), consonants.end(), character)
-            ? cout<<"Your character is NOT a consonant.\n"
-            : cout<<"Your character is a consonant.\n";
-        cout<<character;
-    
-
+        find (digits.begin(), digits.end(), character) != digits.end()
+            ? cout<<"Your character is a digit.\n"  //says this if condition==true
+            : cout<<"Your character is NOT  a digit.\n";     //says this if condition==false
+        find (vowels.begin(), vowels.end(), character) != vowels.end()
+            ? cout<<"Your character is a vowel.\n"
+            : cout<<"Your character is NOT a vowel.\n";
+        find (consonants.begin(), consonants.end(), character) != consonants.end()
+            ? cout<<"Your character is a consonant.\n"
+            : cout<<"Your character is NOT a consonant.\n";
+        cout<<character<<endl;
 
 
 /* example find() function from documentation:
