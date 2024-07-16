@@ -62,5 +62,7 @@ int main(){
 //  debug / testing
     cout<<aNumber<<endl;
     cout<<id<<endl;
+
+    cout<<aNumber%3 && aNumber%5;
     return 0;
 }
