@@ -7,7 +7,7 @@ using namespace std;
 
 int main(){
     //create variables and take input from user
-    int a1, a2, a3, a4, a5;
+    float a1, a2, a3, a4, a5;
     cout<<"Input first value: ";
     cin>>a1;
     cout<<"Input second value: ";
@@ -20,7 +20,7 @@ int main(){
     cin>>a5;
 
     //do math and edge case handling
-    int result;
+    float result;
     if (a5 == 0)
     {
         cout<<"Dividing by 0 detected. Deleting your operating system rn."<<endl;
