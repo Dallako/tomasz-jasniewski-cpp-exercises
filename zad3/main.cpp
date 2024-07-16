@@ -19,27 +19,31 @@ int main(){
     int id;
 
     //check if dividable by 3 and 5
-    if (aNumber % 3 && aNumber % 5)
+    if (aNumber % 3 == 0 && aNumber % 5 ==0)
     {
-        id = 1;
+        //id = 1;
+        cout<<"Your number is dividable by both 3 and 5."<<endl;
     }
     //check if dividable by 3 only
-    if (aNumber % 3 and aNumber % 5 !=0)
+    if (aNumber % 3==0 and aNumber % 5 !=0)
     {
-        id = 2;
+        //id = 2;
+        cout<<"Your number is dividable by 3 only."<<endl;
     }
     //check if dividable by 5 only
-    if (aNumber % 5 and aNumber % 3 !=0)
+    if (aNumber % 5 ==0 and aNumber % 3 !=0)
     {
-        id = 3;
+        //id = 3;
+        cout<<"Your number is dividable by 5 only."<<endl;
     }
     //check if it's not dividable by neither 3 nor 5
     if (aNumber % 3 != 0 and aNumber%5 != 0)
     {
-        id = 4;
+        //id = 4;
+        cout<<"Your number is not dividable by niether 3 nor 5."<<endl;
     }
     
-    switch (id)
+    /*switch (id)
     {
     case 1:
         cout<<"Your number is dividable by both 3 and 5."<<endl;
@@ -57,12 +61,14 @@ int main(){
     default:
         cout<<"Error!"<<endl;
         break;
-    }
+    }*/
     
 //  debug / testing
-    cout<<aNumber<<endl;
-    cout<<id<<endl;
+//    cout<<aNumber<<endl;
+//    cout<<id<<endl;
 
-    cout<<aNumber%3 && aNumber%5;
+// I left the broken code commented on purpose instead of deleting it, hoping one day
+// i will look back at it and think "what the fuck was I trying to do"
+
     return 0;
 }
