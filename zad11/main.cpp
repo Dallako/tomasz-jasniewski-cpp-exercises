@@ -3,8 +3,31 @@
 #include <iostream>
 using namespace std;
 
-int main(){
+//check if number is dividable by 7
+bool dividableBySeven(int n)
+{
+    if (n % 7 == 0)
+    {
+        return true;
+    }
+    else return false;
+    
+}
 
+
+int main(){
+    for (int i = 100; i >= 10; i--)
+    {
+        if (dividableBySeven(i))
+        {
+            cout<<endl; //poprawić lapszym rozwiązaniem w przyszłości
+        }
+        else
+        {
+            cout<<i<<endl;
+        }
+    }
+    
 
 
 
