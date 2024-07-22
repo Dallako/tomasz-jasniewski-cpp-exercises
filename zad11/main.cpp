@@ -20,7 +20,7 @@ int main(){
     {
         if (dividableBySeven(i))
         {
-            cout<<endl; //poprawić lapszym rozwiązaniem w przyszłości
+            cout<<""; //i'm sure there's a better solution than this, but it works so, meh...
         }
         else
         {
