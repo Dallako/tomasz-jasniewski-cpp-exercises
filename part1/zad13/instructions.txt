@@ -1,0 +1,5 @@
+Wyświetl liczby całkowite od 1 do 120, z pominięciem liczb podzielnych przez
+11 oraz 5 równocześnie. Wyświetl informacje ile liczb zostało wyświetlonych, a ile pominiętych.
+
+Display integers from 1 to 120, excluding numbers dividable by both 11 and 5.
+Display information how many numbers was displayed, and how many was skipped.
