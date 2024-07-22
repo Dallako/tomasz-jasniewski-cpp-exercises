@@ -1,0 +1,5 @@
+Odgadnij wzór ciągu, a następnie wyświetl jego 100 elementów.
+Początek ciągu: [100, 99, 97, 94, 90, 85]
+
+Guess the pattern of a sequence and then display its 100 elements.
+Start of sequence: [100, 99, 97, 94, 90, 85]
