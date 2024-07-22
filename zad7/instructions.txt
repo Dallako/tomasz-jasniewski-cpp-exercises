@@ -1,3 +1,0 @@
-//Pobieraj znaki z klawiatury do czasu pobrania znaku x. Ile znaków pobrano?
-
-Take character input until there's been 'x' inputted. How many characters have been inputed?

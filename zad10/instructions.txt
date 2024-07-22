@@ -1,3 +1,0 @@
-Wyświetl liczby całkowite od 1 do 100. Spróbuj zrobić to wykorzystując różne pętle (for, while, do...while).
-
-Display integers from 1 to 100. Try to do it using different loops (for, while, do...while).

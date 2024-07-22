@@ -1,5 +1,0 @@
-//masz takie wyrażenie: (((a1+a2)*a3)-a4)/a5 (elementy od a1 do a5 są typu float).
-//Pobierz z klawiatury każdą ze zmiennych a1 do a5, oblicz wartość wyrażenia i wyświetl wynik.
-//w przypadku dzielenia przez 0 informacja o błędzie i nie wykonywanie się programu.
-
-You got given expression: (((a1+a2)*a3)-a4)/a5 (Elements from a1 to a5 are of float type). Each variable a1 to a5 has to be inputed from keyboard. Count the value of the expression and print the results. In case of dividing by 0 display an information about it and stop the program from exectuting/proceding further.

@@ -1,3 +1,0 @@
-Wyświetl liczby całkowite od 100 do 10 włącznie, pomijając liczby podzielne przez 7.
-
-Display integers from 100 to 10 (including 10), except for numbers dividable by 7.
