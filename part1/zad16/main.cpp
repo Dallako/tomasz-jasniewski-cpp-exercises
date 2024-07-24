@@ -7,18 +7,16 @@
 using namespace std;
 
 int main(){
-    //create an array
-    array<size_t, 100> theSequence = {100, 99, 97, 94, 90, 85}; //0-5
-
-    //here put the solution
-    
-
-    //print out array
-    for_each(theSequence.begin(), theSequence.end(), [] (size_t x)
-        {
-            cout<<x<<' ';
-        }
-    );
-
+    int howMuch = 1;
+    int n = 100;
+    while (howMuch <= 100)
+    {
+        cout<<n<<' ';
+        n -= howMuch++;
+    }
+//i can't believe solution was this simple
+//i honestly had to check the answer in the book
+//but i promise i will get back to this exercise
+//and make the next task (it's also guess the pattern and display 100 elements)
 return 0;
 }
