@@ -1,0 +1,3 @@
+Pobieraj liczbę z klawiatury i wyświetlaj jej dwukrotność. Operację powtarzaj, dopóki nie wyświetlona zostanie warość pomiędzy 1 a 10 włącznie.
+
+Take integer input and display it's double value (x2). Repeat until displayed value is between 1 and 10.
