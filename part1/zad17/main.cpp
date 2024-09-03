@@ -5,8 +5,26 @@
 using namespace std;
 
 int main(){
+	//6 -4 + 6
+	//8 -5 + 7
+	//10 -6 + 8
+
+	int start = 6;
+	int decrement = 4;
+	int increment = 6;
 
 
+	cout<<start<<" ";
+	for (int i=0;i<=100;i++)
+	{
+		start = start - decrement;
+		decrement++;
+		cout<<start<<" ";
+
+		start = start + increment;
+		increment++;
+		cout<<start<<" ";
+	}
 
 
     return 0;
