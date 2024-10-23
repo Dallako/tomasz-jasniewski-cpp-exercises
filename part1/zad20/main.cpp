@@ -23,15 +23,33 @@ int main(){
     vector<int> pierwszy = {138, 527, 999, 1110, 1488, 1819, 2024, 4201, 7722, 9075};
     vector<int> drugi;
 
-    //check if number is even
-    //if so, put it in front of second vector
-    //if not, put it at the end
-    
-    /*
-    YOU'RE HERE, USE std::for_each() and isEven() to iterate through pierwszy
-    isEven = insert()
-    !isEven= push_back()
-    */
+    // iterate over the first vector
+    for (int num : pierwszy)
+    {
+        // check if the number is even
+        if (isEven(num)) {
+            // insert at the front of the second vector if even
+            drugi.insert(drugi.begin(), num);
+        } else {
+            // append to the end of the second vector if odd
+            drugi.push_back(num);
+        }
+    }
 
+    // Display both vectors
+    cout << "First vector (pierwszy): ";
+    for (int num : pierwszy) {
+        cout << num << " ";
+    }
+    cout << endl;
+
+    cout << "Second vector (drugi, evens first): ";
+    for (int num : drugi) {
+        cout << num << " ";
+    }
+    cout << endl;
+/*
+ChatGPT helped me. Learn how to use : to iterate and then do this assigment again!
+*/
     return 0;
 }
